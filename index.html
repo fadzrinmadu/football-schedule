@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Import styles.css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Import manifest.json -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- IOS support -->
+    <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+
+    <meta name="apple-mobile-web-app-status-bar" content="#3d185d">
+    <meta name="theme-color" content="#3d185d">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Premier League</title>
+  </head>
+
+  <body class="grey lighten-4">
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav-extended">
+         <div class="nav-wrapper">
+           <a href="#" class="brand-logo">Premier League</a>
+         </div>
+         <div class="nav-content">
+           <ul class="tabs tabs-transparent">
+             <li class="waves-effect tab"><a href="#matches">Matches</a></li>
+             <li class="waves-effect tab"><a href="#standings">Standings</a></li>
+             <li class="waves-effect tab"><a href="#teams">Teams</a></li>
+             <li class="waves-effect tab"><a href="#favorites">Favorites</a></li>
+           </ul>
+         </div>
+       </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main"></main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

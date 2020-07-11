@@ -1,0 +1,152 @@
+.material-icons {
+  pointer-events: none;
+}
+
+.container {
+  width: 90%;
+}
+
+@media screen and (min-width: 576px)  {
+  .container {
+    max-width: 720px;
+  }
+  .container.teams,
+  .container.favorites {
+    max-width: 992px;
+  }
+}
+
+nav {
+  background-color: #3d185d;
+  position: relative;
+}
+
+nav .brand-logo {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs {
+    width: 680px;
+  }
+}
+
+main {
+  margin-top: 32px;
+}
+
+.card-panel {
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(90,90,90,0.1);
+}
+
+.matches .date {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.matches .match {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+
+.matches .team-logo {
+  max-height: 40px;
+}
+
+.team p {
+  font-weight: 500;
+}
+
+.matches .scores {
+  margin-top: 28px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .matches .team-logo {
+    max-height: 60px;
+  }
+}
+
+/* Standings */
+.standings .position {
+  display: inline-block;
+  width: 18px;
+  text-align: center;
+}
+
+.standings .team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.standings .position,
+.standings .team-logo,
+.standings .team-name {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 576px) {
+  .standings .played,
+  .standings .won,
+  .standings .draw,
+  .standings .lost,
+  .standings .goals-for,
+  .standings .goals-against,
+  .standings .goal-difference {
+    display: none;
+  }
+}
+
+/* Teams */
+.teams .team {
+  padding-top: 42px;
+  position: relative;
+}
+
+.teams .add-to-favorite {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.teams .card-image {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.teams .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.teams .card-action a {
+  font-size: 14px;
+  margin-right: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+  #toast-container {
+    position: fixed !important;
+    top: inherit !important;
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+}
