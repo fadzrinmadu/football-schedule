@@ -13,4 +13,4 @@ The features of this application:
 - Add team to favorites
 - Implement PWA feature (offline mode, install to mobile)
 
-API used: https://api.football-data.org/v2
+API used: https://www.football-data.org/
